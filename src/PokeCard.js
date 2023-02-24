@@ -30,7 +30,11 @@ function PokeCard({ id }) {
         onClick={() => setShowModal(true)}
       >
         <div className="img-container">
-          <img src={pokeball} alt={pokemonData.name} className="pokemon-img" />
+          <img
+            src={pokemonData.sprites.front_default}
+            alt={pokemonData.name}
+            className="pokemon-img"
+          />
         </div>
         <div className="poke-info">
           <h4 className="name">{pokemonData.name}</h4>

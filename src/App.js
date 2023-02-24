@@ -36,7 +36,7 @@ function App() {
             max="100"
             onChange={(e) => setInput(e.target.value)}
           />
-          <button type="submit" className="filter-btn">
+          <button type="submit" className="search-btn">
             Search
           </button>
         </form>
